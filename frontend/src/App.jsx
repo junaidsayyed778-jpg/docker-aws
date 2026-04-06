@@ -40,7 +40,7 @@ const App = () => {
 
     if (username && editorRef.current) {
       provider = new SocketIOProvider(
-        "http://localhost:3000",
+        "/",
         "monaco",
         ydoc,
         {
