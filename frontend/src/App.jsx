@@ -154,7 +154,7 @@ return (
         <Editor
           height="100%"
           defaultLanguage="javascript"
-          defaultValue="// Start collaborating 🚀"
+          defaultValue="// Start collaborating🚀"
           theme="vs-dark"
           onMount={handleMount}
         />
